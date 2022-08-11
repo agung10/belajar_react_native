@@ -1,20 +1,32 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { Text, View, Image, TextInput } from "react-native";
 
-export default function App() {
+// Functional Function (Arrow Function)
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <Text>
+        Hello <World />
+      </Text>
+      <Photo/>
+      <Text>Agung</Text>
+      <Text>Mubarok</Text>
+      <TextInput style={{ borderWidth: 1 }} />
     </View>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+const World = () => {
+  return <Text>World</Text>;
+};
+
+const Photo = () => {
+  return (
+    <Image
+      source={{ uri: "https://placeimg.com/100/100/tech" }}
+      style={{ width: 100, height: 100 }}
+    />
+  );
+};
+
+export default App;
