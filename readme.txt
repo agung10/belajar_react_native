@@ -9,3 +9,6 @@ Video 10 - Basic Styling React Native Component - (Dimensi, Background, Color, M
 
 Video 11 - Memahami Export dan Import di React Native Component
     Link: https://www.youtube.com/watch?v=lxN7h-MWAtY&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=11
+
+Video 12 - Memahami Basic Layouting di React Native dengan menggunakan FlexBox
+    Link: https://www.youtube.com/watch?v=Pmo83T83UrI&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=12
