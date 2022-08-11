@@ -1,2 +1,5 @@
 Video 8 - Membuat Component dengan Functional Component (Hooks) , Implementasi View, Text, Image, TextInput
     Link: https://www.youtube.com/watch?v=dpwqX73fzQY&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=8
+
+Video 9 - Membuat Component dengan Class Component di React Native
+    Link: https://www.youtube.com/watch?v=KYTw1RBCZW0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=9

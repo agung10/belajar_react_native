@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { Text, View, Image, TextInput } from "react-native";
 
 // Functional Function (Arrow Function)
@@ -8,10 +8,14 @@ const App = () => {
       <Text>
         Hello <World />
       </Text>
-      <Photo/>
+      <Photo />
       <Text>Agung</Text>
       <Text>Mubarok</Text>
       <TextInput style={{ borderWidth: 1 }} />
+
+      {/* Class Component */}
+      <ExampleClass />
+      <AnimalImage />
     </View>
   );
 };
@@ -28,5 +32,26 @@ const Photo = () => {
     />
   );
 };
+
+// Class Component
+class ExampleClass extends Component {
+  render() {
+    return <Text>Ini Component Dari Class</Text>;
+  }
+}
+
+class AnimalImage extends Component {
+  render() {
+    return (
+      <View>
+        <Image
+          source={{ uri: "https://placeimg.com/100/100/animals" }}
+          style={{ width: 100, height: 100 }}
+        />
+        <Text>Ini Gambar Kucing</Text>
+      </View>
+    );
+  }
+}
 
 export default App;
