@@ -22,3 +22,6 @@
 
 **Video 14** - Merapihkan project React Native dengan Struktur Yang Mudah Dibaca dan Dikembangkan
 - Link: https://www.youtube.com/watch?v=40vX41Qao5M&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=14
+
+**Video 15** - Memahami Siklus Hidup (Lifecycle) Class Component
+- Link: https://www.youtube.com/watch?v=gWqgPJ_j2LI&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=15

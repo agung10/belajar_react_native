@@ -2,7 +2,34 @@ import React, { Component } from "react";
 import { Text, View, Image } from "react-native";
 
 class FlexBox extends Component {
+  constructor(props) {
+    super(props);
+    console.log("Constructor (pertama)");
+
+    this.state = {
+      address: "Jakarta Selatan",
+    };
+  }
+
+  componentDidMount() {
+    console.log("Component Did Mount (ketiga)");
+    setTimeout(() => {
+      this.setState({
+        address: "Jakarta Timur",
+      });
+    }, 4000);
+  }
+
+  componentDidUpdate() {
+    console.log("Component Did Update (keempat)");
+  }
+
+  componentWillUnmount() {
+    console.log("Component Will Unmount (Kelima)");
+  }
+
   render() {
+    console.log("Render (kedua)");
     return (
       <View>
         <View
@@ -59,7 +86,7 @@ class FlexBox extends Component {
               <Text style={{ fontSize: 20, fontWeight: "bold" }}>
                 Agung Mubarok
               </Text>
-              <Text>Jakarta Timur</Text>
+              <Text>{this.state.address}</Text>
             </View>
           </View>
         </View>
