@@ -1,16 +1,18 @@
 import React from "react";
 import { StyleSheet, Image, View, Text } from "react-native";
-import cart from "./assets/cart.png";
+import cart from "../assets/images/cart.png";
 
 const Position = () => {
   return (
-    <View style={styles.wrapper}>
+    <View style={{marginTop: 20, paddingHorizontal: 10}}>
       <Text style={styles.title}>Materi Position</Text>
-      <View style={styles.cartWrap}>
-        <Image source={cart} style={styles.iconCart} />
-        <Text style={styles.textNotif}>10</Text>
+      <View style={styles.wrapper}>
+        <View style={styles.cartWrap}>
+          <Image source={cart} style={styles.iconCart} />
+          <Text style={styles.textNotif}>10</Text>
+        </View>
+        <Text style={styles.text}>Keranjang Belanja</Text>
       </View>
-      <Text style={styles.text}>Keranjang Belanja</Text>
     </View>
   );
 };
@@ -18,15 +20,13 @@ const Position = () => {
 export default Position;
 
 const styles = StyleSheet.create({
-  wrapper: {
-    marginTop: 40,
-    padding: 20,
-    alignItems: "center",
-  },
   title: {
     fontSize: 20,
     fontWeight: "bold",
-    marginBottom: 10,
+  },
+  wrapper: {
+    padding: 20,
+    alignItems: "center",
   },
   cartWrap: {
     borderWidth: 2,

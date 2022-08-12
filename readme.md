@@ -19,3 +19,6 @@
 
 **Video 13** - Memahami Konsep Position di Dalam Component React Native
 - Link: https://www.youtube.com/watch?v=YZfr6EYQjTk&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=13
+
+**Video 14** - Merapihkan project React Native dengan Struktur Yang Mudah Dibaca dan Dikembangkan
+- Link: https://www.youtube.com/watch?v=40vX41Qao5M&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=14

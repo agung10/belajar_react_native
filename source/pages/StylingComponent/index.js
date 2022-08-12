@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
-import macbook from "./assets/macbook.png";
+import macbook from "../assets/images/macbook.png";
 
 const StylingComponent = () => {
   return (

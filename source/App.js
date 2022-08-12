@@ -1,18 +1,18 @@
 import React from "react";
 import { View, ScrollView } from "react-native";
-import FlexBox from "./FlexBox";
-import Position from "./Position";
-import SampleComponent from "./SampleComponent";
-import StylingComponent from "./StylingComponent";
+import FlexBox from "./pages/FlexBox";
+import Position from "./pages/Position";
+import SampleComponent from "./pages/SampleComponent";
+import StylingComponent from "./pages/StylingComponent";
 
 // Functional Function (Arrow Function)
 const App = () => {
   return (
     <View>
       <ScrollView>
-        {/* <SampleComponent />
+        <SampleComponent />
         <StylingComponent />
-        <FlexBox /> */}
+        <FlexBox />
         <Position />
       </ScrollView>
     </View>
