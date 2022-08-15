@@ -9,11 +9,11 @@ import FlexBox from "./pages/FlexBox";
 const App = () => {
   const [isShow, setIsShow] = useState(true);
   // lifecycle didmount (hooks)
-  useEffect(() => {
-    setTimeout(() => {
-      setIsShow(false);
-    }, 6000);
-  });
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsShow(false);
+  //   }, 6000);
+  // });
   return (
     <View>
       <ScrollView>

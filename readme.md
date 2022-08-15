@@ -25,3 +25,6 @@
 
 **Video 15** - Memahami Siklus Hidup (Lifecycle) Class Component
 - Link: https://www.youtube.com/watch?v=gWqgPJ_j2LI&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=15
+
+**Video 16** - Memahami siklus hidup (lifecycle) Functional Component (Hooks)
+- Link: https://www.youtube.com/watch?v=Y6qXMEwp3ng&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=16
