@@ -31,3 +31,6 @@
 
 **Video 17** - Membuat Component Yang Dinamis Dengan Menggunakan Props
 - Link: https://www.youtube.com/watch?v=f8Uiz7urTPw&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=17
+
+**Video 18** - Membuat Component Yang Dinamis Dengan Menggunakan State
+- Link: https://www.youtube.com/watch?v=hVzGxluAGE8&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=18

@@ -5,6 +5,7 @@ import PropsDinamis from "./pages/PropsDinamis";
 import Position from "./pages/Position";
 import SampleComponent from "./pages/SampleComponent";
 import StylingComponent from "./pages/StylingComponent";
+import StateDinamis from "./pages/StateDinamis";
 
 // Functional Function (Arrow Function)
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         {isShow && <FlexBox />}
         <Position />
         <PropsDinamis />
+        <StateDinamis />
       </ScrollView>
     </View>
   );
