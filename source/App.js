@@ -7,6 +7,7 @@ import SampleComponent from "./pages/SampleComponent";
 import StylingComponent from "./pages/StylingComponent";
 import StateDinamis from "./pages/StateDinamis";
 import Communication from "./pages/Communication";
+import BasicJavascript from "./pages/BasicJavascript";
 
 // Functional Function (Arrow Function)
 const App = () => {
@@ -26,7 +27,8 @@ const App = () => {
         {/* <Position /> */}
         {/* <PropsDinamis /> */}
         {/* <StateDinamis /> */}
-        <Communication />
+        {/* <Communication /> */}
+        <BasicJavascript />
       </ScrollView>
     </View>
   );
