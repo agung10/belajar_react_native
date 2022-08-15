@@ -34,3 +34,6 @@
 
 **Video 18** - Membuat Component Yang Dinamis Dengan Menggunakan State
 - Link: https://www.youtube.com/watch?v=hVzGxluAGE8&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=18
+
+**Video 19** - Memahami Konsep Komunikasi Antar Komponent di React Native Dengan Menggunakan Props dan State
+- Link: https://www.youtube.com/watch?v=-5tVOhlxrMY&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=19

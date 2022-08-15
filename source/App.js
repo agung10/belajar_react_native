@@ -6,6 +6,7 @@ import Position from "./pages/Position";
 import SampleComponent from "./pages/SampleComponent";
 import StylingComponent from "./pages/StylingComponent";
 import StateDinamis from "./pages/StateDinamis";
+import Communication from "./pages/Communication";
 
 // Functional Function (Arrow Function)
 const App = () => {
@@ -19,12 +20,13 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        <SampleComponent />
-        <StylingComponent />
-        {isShow && <FlexBox />}
-        <Position />
-        <PropsDinamis />
-        <StateDinamis />
+        {/* <SampleComponent /> */}
+        {/* <StylingComponent /> */}
+        {/* {isShow && <FlexBox />} */}
+        {/* <Position /> */}
+        {/* <PropsDinamis /> */}
+        {/* <StateDinamis /> */}
+        <Communication />
       </ScrollView>
     </View>
   );
