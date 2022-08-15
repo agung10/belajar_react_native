@@ -8,6 +8,7 @@ import StylingComponent from "./pages/StylingComponent";
 import StateDinamis from "./pages/StateDinamis";
 import Communication from "./pages/Communication";
 import BasicJavascript from "./pages/BasicJavascript";
+import ReactNativeSVG from "./pages/ReactNativeSVG";
 
 // Functional Function (Arrow Function)
 const App = () => {
@@ -21,14 +22,15 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        {/* <SampleComponent /> */}
-        {/* <StylingComponent /> */}
-        {/* {isShow && <FlexBox />} */}
-        {/* <Position /> */}
-        {/* <PropsDinamis /> */}
-        {/* <StateDinamis /> */}
-        {/* <Communication /> */}
+        <SampleComponent />
+        <StylingComponent />
+        {isShow && <FlexBox />}
+        <Position />
+        <PropsDinamis />
+        <StateDinamis />
+        <Communication />
         <BasicJavascript />
+        <ReactNativeSVG />
       </ScrollView>
     </View>
   );

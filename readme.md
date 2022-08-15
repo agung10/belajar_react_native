@@ -40,3 +40,6 @@
 
 **Video 21** - Basic Javascript Yang Perlu Difahami Untuk Belajar React Native (Variable, Function, Condition dan Looping)
 - Link: https://www.youtube.com/watch?v=jAdX2ll_e_c&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=21
+
+**Video 22** - Cara Menggunakan Image SVG Didalam Project React Native
+- Link: https://www.youtube.com/watch?v=jKo9B5vxy_0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=22
