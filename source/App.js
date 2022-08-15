@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { View, ScrollView } from "react-native";
 import FlexBox from "./pages/FlexBox";
-// import Position from "./pages/Position";
-// import SampleComponent from "./pages/SampleComponent";
-// import StylingComponent from "./pages/StylingComponent";
+import PropsDinamis from "./pages/PropsDinamis";
+import Position from "./pages/Position";
+import SampleComponent from "./pages/SampleComponent";
+import StylingComponent from "./pages/StylingComponent";
 
 // Functional Function (Arrow Function)
 const App = () => {
@@ -17,10 +18,11 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        {/* <SampleComponent /> */}
-        {/* <StylingComponent /> */}
+        <SampleComponent />
+        <StylingComponent />
         {isShow && <FlexBox />}
-        {/* <Position /> */}
+        <Position />
+        <PropsDinamis />
       </ScrollView>
     </View>
   );

@@ -28,3 +28,6 @@
 
 **Video 16** - Memahami siklus hidup (lifecycle) Functional Component (Hooks)
 - Link: https://www.youtube.com/watch?v=Y6qXMEwp3ng&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=16
+
+**Video 17** - Membuat Component Yang Dinamis Dengan Menggunakan Props
+- Link: https://www.youtube.com/watch?v=f8Uiz7urTPw&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=17
