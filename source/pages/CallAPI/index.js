@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 
 const CallAPI = () => {
   const [dataUser, setDataUser] = useState({
-    avatar: null,
+    avatar: "",
     email: "",
     first_name: "",
     last_name: "",
@@ -70,7 +70,9 @@ const CallAPI = () => {
       <Text style={styles.textTitle}>Call API dengan VanillaJS</Text>
       <Button title="Get Data" onPress={getData} />
       <Text>Response Get Data</Text>
-      <Image source={{ uri: dataUser.avatar }} style={styles.avatar} />
+      {dataUser.avatar.length > 0 && (
+        <Image source={{ uri: dataUser.avatar }} style={styles.avatar} />
+      )}
       <Text>{`${dataUser.first_name} ${dataUser.last_name}`}</Text>
       <Text>{`${dataUser.email}`}</Text>
 

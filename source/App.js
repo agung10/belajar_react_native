@@ -10,6 +10,7 @@ import Communication from "./pages/Communication";
 import BasicJavascript from "./pages/BasicJavascript";
 import ReactNativeSVG from "./pages/ReactNativeSVG";
 import CallAPI from "./pages/CallAPI";
+import CallAPIAxios from "./pages/CallAPIAxios";
 
 // Functional Function (Arrow Function)
 const App = () => {
@@ -31,8 +32,9 @@ const App = () => {
         <StateDinamis />
         <Communication />
         <BasicJavascript />
-        <ReactNativeSVG /> */}
-        <CallAPI />
+        <ReactNativeSVG />
+        <CallAPI /> */}
+        <CallAPIAxios />
       </ScrollView>
     </View>
   );

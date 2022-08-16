@@ -49,3 +49,6 @@
 
 **Video 29** - Memunculkan Hasil Call API ke Aplikasi React Native
 - Link: https://www.youtube.com/watch?v=jKo9B5vxy_0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=29
+
+**Video 30** - Call API dengan Third Party dan Installasi Axios
+- Link: https://www.youtube.com/watch?v=jKo9B5vxy_0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=30
