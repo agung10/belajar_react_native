@@ -43,3 +43,9 @@
 
 **Video 22** - Cara Menggunakan Image SVG Didalam Project React Native
 - Link: https://www.youtube.com/watch?v=jKo9B5vxy_0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=22
+
+**Video 28** - Implementasi Pemanggilan API di Aplikasi React Native dengan Vanilla JS
+- Link: https://www.youtube.com/watch?v=jKo9B5vxy_0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=28
+
+**Video 29** - Memunculkan Hasil Call API ke Aplikasi React Native
+- Link: https://www.youtube.com/watch?v=jKo9B5vxy_0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=29

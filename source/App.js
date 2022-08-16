@@ -9,6 +9,7 @@ import StateDinamis from "./pages/StateDinamis";
 import Communication from "./pages/Communication";
 import BasicJavascript from "./pages/BasicJavascript";
 import ReactNativeSVG from "./pages/ReactNativeSVG";
+import CallAPI from "./pages/CallAPI";
 
 // Functional Function (Arrow Function)
 const App = () => {
@@ -22,7 +23,7 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        <SampleComponent />
+        {/* <SampleComponent />
         <StylingComponent />
         {isShow && <FlexBox />}
         <Position />
@@ -30,7 +31,8 @@ const App = () => {
         <StateDinamis />
         <Communication />
         <BasicJavascript />
-        <ReactNativeSVG />
+        <ReactNativeSVG /> */}
+        <CallAPI />
       </ScrollView>
     </View>
   );
