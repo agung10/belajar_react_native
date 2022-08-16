@@ -52,3 +52,6 @@
 
 **Video 30** - Call API dengan Third Party dan Installasi Axios
 - Link: https://www.youtube.com/watch?v=jKo9B5vxy_0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=30
+
+**Video 31** - Membuat Fake API di local dan Installasi JSON Server
+- Link: https://www.youtube.com/watch?v=jKo9B5vxy_0&list=PLU4DS8KR-LJ3SP3PpRb870UoT_0_rjLpV&index=31
